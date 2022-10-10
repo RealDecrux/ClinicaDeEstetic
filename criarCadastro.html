@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Gustavo Santa Cruz Siqueira">
+    <link href="css/stylelogin.css" rel="Stylesheet">
+    
+    <title></title>
+</head>
+<body>
+<!-- Para criar cadastro, caso nao tenha -->
+  <selection class="criarCadastro">
+    <selection class="cadastroLogin">
+      <section class="areaLogin">
+          <div class="login">
+
+              <div>
+                <img src="img/logoPreta.png">
+              </div>
+
+              <form method="post">
+                <input type="text" id="nome" placeholder="Nome do usuario" autofocus>
+                <input type="text" id="endereco" placeholder="Endereço" autofocus>
+                <input type="date" id="date" placeholder="Data de nascimento" autofocus>
+                <input type="password" name="senha" placeholder="Sua senha :)">
+                <input type="password" name="confirmeSenha" placeholder="Confirme sua senha :0">
+                <input type="submit" onclick="Entrar(); return false">
+              </form>
+<!-- Validação depois de ter criado o cadastro -->
+              <script>
+                function Entrar(){
+                  alert('Cadastro realizado com sucesso');
+                  location.href= 'cadastro.html';
+                }
+              </script>
+              
+          </div>
+      </section>
+    </selection>
+  </selection>
+</body>
+</html>

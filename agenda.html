@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Gustavo Santa Cruz Siqueira">
+    <link href="css/stylelogin.css" rel="Stylesheet">
+
+    <title></title>
+</head>
+<body>
+<!-- Agenda -->
+    <section class="agenda">
+
+    <section class="areaLogin">
+        <div class="login">
+
+            <div>
+              <img src="img/logo.jpg"> 
+            </div>
+
+            <h3> Digite a data e o horario para dar um UP na sua auto estima!</h3>
+            <form method="post">
+              <input type="datetime-local" placeholder="Nome do usuario" id="login">
+                <section class="formAgenda">
+                    <input type="radio" name="medicos" vaLeu="medicos" /> Dr. Ricardo <br/>
+                    <input type="radio" name="medicos" vaLue="medicos" /> Dra. Alessandra <br/>
+                    <input type="radio" name="medicos" vaLue="medicos" /> Dra. Ana Beatriz <br/>
+                    <input type="radio" name="medicos" vaLue="medicos" /> Dra .Lurdinha <br/>
+                    <input type="radio" name="medicos" vaLue="medicos" /> Dra. Adriana <br/>
+                </section>
+            <input type="submit" onclick= "Agendar(); return false">
+            </form>
+
+            <script>
+              function Agendar(){
+                alert('Procedimento agendado com sucesso! Até logo :) ');
+                    location.href = "index.html";
+              }
+              
+            </script>
+
+        </div>
+     </section>
+    
+    </section>
+<!-- Agenda -->
+</body>
+</html>
